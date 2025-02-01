@@ -66,6 +66,7 @@ Brightspace Video Answer Extractor is a Chrome extension that helps students rev
        </rdf:Description>
      </tscIQ:questions>
      ```
+   - Yes, it's that easy. The answers are literally hard-coded into the configuration file of the video
 
 4. **Display**
 
