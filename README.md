@@ -85,7 +85,6 @@ Brightspace Video Answer Extractor is a Chrome extension that helps students rev
 
 - **Background Script**: Monitors network requests for XML configuration files
 - **Content Script**: Injects and manages the side panel UI
-- **Popup**: Provides historical data access and debugging information
 
 ### Data Flow
 

@@ -4,7 +4,6 @@
   "description": "A chrome extension that scrapes answers from Brightspace videos and displays them in a side panel.",
   "version": "1.1.1",
   "action": {
-    "default_popup": "popup.html",
     "default_icon": "assets/icon.png"
   },
   "content_scripts": [
