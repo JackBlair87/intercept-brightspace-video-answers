@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Model Answer Extractor (Video)",
+  "description": "A chrome extension that scrapes answers from Brightspace videos and displays them in a side panel.",
+  "version": "1.1.1",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://purdue.brightspace.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://purdue.brightspace.com/*",
+    "https://content.us-east-1.content-service.brightspace.com/*"
+  ]
+}
